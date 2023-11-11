@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { stat } from "fs";
 const initteam: { teams: any; errmsg: string } = {
-  teams: [{ name: "k", players: [], region: "k", country: "k" }],
+  teams: [],
   errmsg: "",
 };
 
